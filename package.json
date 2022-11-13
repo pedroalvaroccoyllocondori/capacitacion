@@ -1,0 +1,25 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "install sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "complile:sass":"node-sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalvaroccoyllocondori/capacitacion.git"
+  },
+  "author": "alvaro ccoyllo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalvaroccoyllocondori/capacitacion/issues"
+  },
+  "homepage": "https://github.com/pedroalvaroccoyllocondori/capacitacion#readme",
+  "dependencies": {
+    "node": "^19.0.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.1"
+  }
+}
